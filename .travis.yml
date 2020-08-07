@@ -8,7 +8,7 @@ android:
   - build-tools-29.0.3
 script:
 - git clone --depth=1 --branch=master https://github.com/Anuken/Arc
-- git clone --depth=1 --branch=maater-ci https://github.com/ILiekMelons/Mindustry
+- git clone --depth=1 --branch=master-ci https://github.com/ILiekMelons/Mindustry
 - cd Mindustry
 - echo "sdk.dir=/usr/local/android-sdk" > local.properties
 - sed -i 's/applicationId "io.anuke.mindustry"/applicationId "io.anuke.mindustry.be"/g' android/build.gradle
