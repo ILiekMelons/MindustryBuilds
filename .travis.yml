@@ -26,4 +26,4 @@ deploy:
   - android/build/outputs/apk/debug/Mindustry-BE-Android-${TRAVIS_TAG}.apk
   on:
     repo: ILiekMelons/MindustryBuilds
-    tags: true
+    tags: false
